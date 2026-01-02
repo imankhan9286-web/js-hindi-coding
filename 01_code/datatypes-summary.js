@@ -23,3 +23,32 @@
         console.log("Hello world");
     }
      console.log(typeof anotherId ); 
+
+
+     // ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+
+     // stack (primitive), Heap (Non-primitive)
+     
+     let myYoutubename = "halimakhancom"
+
+     let anothername = myYoutubename
+     anothername = "khancode"
+
+     console.log(myYoutubename);
+     console.log(anothername);
+
+     let userOne = {
+     email : "user@google.com",
+     upi : "user@bl"
+
+
+     }
+
+     let userTwo =  userOne     
+
+     userTwo.email = "halima@google.com"
+
+     console.log (userOne.email);
+     console.log(userTwo.email);
+
+     
