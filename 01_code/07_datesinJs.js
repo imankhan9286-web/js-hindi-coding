@@ -8,4 +8,25 @@
  //console.log(myDate.toLocaleDateString())
 
  //console.log(typeof myDate);
+
+ //let myCreatedDate = new Date(2026,0,6)
+ //let myCreatedDate = new Date(2026,0,6,1,)
+ //console.log(myCreatedDate.toLocaleString());
+ //console.log(myCreatedDate.toLocaleTimeString());
+ 
+ let myCreatedDate = new Date("1-6-2026")
+ //console.log(myCreatedDate.toLocaleDateString());
+
+  let myTimeStamp = Date.now()
+
+  //console.log(myTimeStamp);
+ //console.log (myCreatedDate.getTime());
+
+ //console.log(Math.floor(Date.now()/1000));
+
+ let newDate = new Date()
+ console.log(newDate);
+ console.log(newDate.getMonth());
+ console.log(newDate.getDay());
+
  
